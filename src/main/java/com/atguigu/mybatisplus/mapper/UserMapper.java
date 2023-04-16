@@ -9,5 +9,5 @@ import java.util.Map;
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
 
-   public Map<String,Object> selectMapById(Long id);
+    public Map<String,Object> selectMapById(Long id);
 }
